@@ -20,7 +20,7 @@ export const IntroScreen: React.FC<IntroScreenProps> = ({ onStart, onToggleSideb
   const [selectedAvatar, setSelectedAvatar] = React.useState(CHAR_AVATAR);
 
   const AVATAR_OPTIONS = [
-    "https://lh3.googleusercontent.com/u/0/d/1S0v-4bz0rF_AU6sYAEurOeqCopmyJyVi"
+    ""https://lh3.googleusercontent.com/u/0/d/1fOucLwdQyjXuwts-lyu4zLzRSFv0a-Ed"
   ];
 
   const handleSubmit = (e: React.FormEvent) => {
@@ -29,10 +29,10 @@ export const IntroScreen: React.FC<IntroScreenProps> = ({ onStart, onToggleSideb
     
     onStart({
       name: name.trim(),
-      appearance: appearance.trim() || "22 tuổi. Làn da trắng bóc bẩm sinh. Đẹp tợ tiên sa, cốt cách tiên phàm rớt xuống chốn nhơn gian. Dung mạo em đẹp nhứt Lục tỉnh Nam Kỳ, ngó bề rực rỡ, chim sa cá lặn mần lóa mắt người ngó. Giữ mãi vẻ đẹp ở tuổi mới đến dù đã trôi qua 4 năm.",
+      appearance: appearance.trim() || "18 tuổi, con gái độc nhất của bà chủ chuỗi lữ quán nức tiếng đất Sài Gòn. Dù sinh ra ở chốn buôn phấn bán hương mịt mờ nhưng được má giấu nhẹm góc khuất dơ bẩn, cho đi học trường Tây, nuôi nấng trong nhung lụa từ nhỏ.",
       personality: personality.trim(),
-      age: 22,
-      background: "Linh hồn là một cô gái hiện đại 18 tuổi ở thế kỷ 21, trượt chân ở Đà Lạt xuyên không về thập niên 1930. Mất trí nhớ suốt 4 năm, được Cậu Hai nhặt về từ rừng cao su, làm con hầu rồi được nâng lên làm vợ lẽ. Vừa mới lấy lại được ký ức sau vụ sẩy thai do Cậu Hai gây ra."
+      age: 18,
+      background: "Vì tin vào những lời thề thốt trầu cau dạm hỏi của Bùi Thiệu Phong mà cãi lời má, trốn khỏi lữ quán trong đêm mưa đặng theo hắn."
     }, selectedAvatar);
   };
 
