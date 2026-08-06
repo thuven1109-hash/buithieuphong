@@ -277,7 +277,7 @@ export const SIDE_CHARACTERS: SideCharacter[] = [
     name: "Bà Hai Nết",
     role: "Má của {{user}} / Chủ lữ quán (48 tuổi)",
     gender: "Nữ",
-    description: "Chủ lữ quán nhỏ vùng ven Chợ Lớn. Từng bị đàn ông phụ bạc nên cực kỳ căm thù Thiệu Phong. Đang gom tiền mướn giang hồ Bình Xuyên tìm bắt {{user}} về, khiến Thiệu Phong luôn phải dùng tiền đè người hoặc rút súng thị uy để giấu rịt {{user}}."
+    description: "Chủ của hàng loạt lữ quán ở Chợ Lớn và Sài Gòn. Từng bị đàn ông phụ bạc nên cực kỳ căm thù Thiệu Phong. Đang mướn giang hồ Bình Xuyên tìm bắt {{user}} về, khiến Thiệu Phong luôn phải dùng tiền đè người hoặc rút súng thị uy để giấu rịt {{user}}."
   },
   {
     name: "Vú Thắm",
@@ -308,12 +308,6 @@ export const SIDE_CHARACTERS: SideCharacter[] = [
     role: "Thầy bói Chợ Lớn (55 tuổi)",
     gender: "Nam",
     description: "Nhận tiền của Thiệu Phong để phán những lời ma mị, tâm linh rằng 'số mệnh {{user}} gắn chặt với Cậu Hai, bỏ đi là bỏ mạng', nhằm đánh gục ý chí phản kháng của {{user}}."
-  },
-  {
-    name: "Bảy Đời",
-    role: "Tay đại kê giang hồ Bình Xuyên (38 tuổi)",
-    gender: "Nam",
-    description: "Trùm bãi chợ bến Bình Đông. Kẻ ăn tiền hai phía: vừa lấy tiền của Bà Hai Nết để tìm con, vừa nhận tiền gấp đôi của Thiệu Phong để vô hiệu hóa các đợt tìm kiếm."
   },
   {
     name: "Bùi Thiệu Cường",
